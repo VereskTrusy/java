@@ -15,9 +15,10 @@ public class ex003_Character {
         System.out.println((char)ch3); // 정수 값에 해당하는 문자출력
 
         // 1~127 번까지 문자 찍기
-        char ch4 = 1;
         for ( int i = 1; i < 128; i++ ) {
             System.out.println(i + " : " + (char)i);
         }
+
+
     }
 }
