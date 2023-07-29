@@ -1,4 +1,4 @@
-package chapter02.ex01_Class;
+package chapter02.ex01_Class.ex01_student;
 
 public class StudentTest {
     public static void main(String[] args) {
@@ -15,8 +15,8 @@ public class StudentTest {
 
         // 같은 클래스를 사용하더라도 인스턴스는 각각의 공간을 차지한다.
         // 참조 변수가 가리키고 있는 주소로 확인 해보자
-        System.out.println(studentDuck); // chapter02.ex01_Class.Student@14899482 클래스이름@주소값 : 해시코드값( hash Code )
-        System.out.println(studentChun); // chapter02.ex01_Class.Student@21588809 다른것이 확인 되었다.
+        System.out.println(studentDuck); // chapter02.ex01_Class.student.Student@14899482 클래스이름@주소값 : 해시코드값( hash Code )
+        System.out.println(studentChun); // chapter02.ex01_Class.student.Student@21588809 다른것이 확인 되었다.
     }
 }
 // 같은 패키지 안에서 클래스를 불러올 때는 import 안해줘도 무방하다

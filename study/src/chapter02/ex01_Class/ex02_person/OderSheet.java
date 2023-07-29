@@ -1,4 +1,4 @@
-package chapter02.ex01_Class;
+package chapter02.ex01_Class.ex02_person;
 
 /**
  * 주문서 클래스

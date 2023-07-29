@@ -1,4 +1,4 @@
-package chapter02.ex01_Class;
+package chapter02.ex01_Class.ex02_person;
 
 public class Person {
 
@@ -52,5 +52,13 @@ public class Person {
 
     public void setChild(int child) {
         this.child = child;
+    }
+
+
+    // default 생성자
+    // 매개변수가 없고 구현코드도 없다.
+    // 생성자 정의가 없다면, 컴파일러가 자동으로 만들어준다
+    public Person() {
+
     }
 }

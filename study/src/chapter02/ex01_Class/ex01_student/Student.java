@@ -1,4 +1,4 @@
-package chapter02.ex01_Class;
+package chapter02.ex01_Class.ex01_student;
 
 public class Student { // 학생 클래스
 

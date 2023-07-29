@@ -1,11 +1,11 @@
-package chapter02.ex01_Class;
+package chapter02.ex01_Class.ex02_person;
 
 public class PersonTest {
     public static void main(String[] args) {
 
         // 연습 김덕배 출력하기
 
-        Person kimDuck = new Person();
+        Person kimDuck = new Person(); // 생성자 호출
 
         // 김덕배 신상 정보 세팅
         kimDuck.setName("김덕배");
