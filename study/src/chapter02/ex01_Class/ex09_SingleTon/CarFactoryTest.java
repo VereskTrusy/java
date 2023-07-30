@@ -11,8 +11,10 @@ public class CarFactoryTest {
 
         Car mySonata = factory.createCar();
         Car yourSonata = factory.createCar();
+        Car car1 = CarFactory.getInstance().createCar(); // 위에꺼랑 이거랑 뭐가다름?
 
         System.out.println(mySonata.getCarNumber());
         System.out.println(yourSonata.getCarNumber());
+        System.out.println(car1.getCarNumber());
     }
 }
