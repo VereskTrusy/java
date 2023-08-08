@@ -1,4 +1,4 @@
-package chapter02.ex02_ArrayAndArrayList.ex02_ObjectArray;
+package chapter02.ex02_ArrayAndArrayList.ex05_ArrayList;
 
 /**
  * 책 객체
@@ -29,7 +29,7 @@ public class Book {
      * @param bookName 책 이름
      * @param author 책 저자
      */
-    public Book( String bookName, String author ) {
+    public Book(String bookName, String author ) {
         this.bookName = bookName;
         this.author = author;
     }

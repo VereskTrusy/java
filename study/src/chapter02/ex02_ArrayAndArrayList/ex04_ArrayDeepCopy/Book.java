@@ -1,4 +1,4 @@
-package chapter02.ex02_ArrayAndArrayList.ex02_ObjectArray;
+package chapter02.ex02_ArrayAndArrayList.ex04_ArrayDeepCopy;
 
 /**
  * 책 객체
