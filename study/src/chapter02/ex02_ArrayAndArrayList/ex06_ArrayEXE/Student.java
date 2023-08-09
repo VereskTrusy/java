@@ -26,13 +26,18 @@ public class Student {
     public Student( int studentNumber, String studentName){
         this.studentNumber = studentNumber;
         this.studentName = studentName;
-        this.subjectList = new ArrayList<>();
+        this.subjectList = new ArrayList<Subject>();
         // 배열을 생성해놓아야 사용할 수 있나?
         // ->
         // 생성안해주고 값을 세팅하면 null에 집어넣는 행위가 되기때문에
         // 생성자에서 arraylist를 생성해서 공간을 확보 해놓아야함
     }
 
+    /**
+     *  과목 세팅
+     * @param name
+     * @param score
+     */
     public void subjectSetting( String name, double score ){
         Subject subject = new Subject();
 
@@ -42,6 +47,9 @@ public class Student {
         this.subjectList.add(subject);
     }
 
+    /**
+     * 과목정보 출력
+     */
     public void showSubjectInfo(){
 
         for( Subject sub : this.subjectList ){
@@ -49,10 +57,16 @@ public class Student {
         }
     }
 
+    /**
+     * 학생 정보 출력
+     */
     public void showStudentInfo(){
         System.out.println(this.studentName + "( " + this.studentNumber + " )");
     }
 
+    /**
+     * 과목 총점 계산 및 출력
+     */
     public void subjectTotal(){
 
         double total = 0;
@@ -64,6 +78,8 @@ public class Student {
         System.out.println("총점 : " + total);
     }
 
+
+    // getter,  setter
     public int getStudentNumber() {
         return studentNumber;
     }

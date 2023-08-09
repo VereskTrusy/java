@@ -1,8 +1,10 @@
 package chapter02.ex02_ArrayAndArrayList.ex06_ArrayEXE;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class StudentTest {
     public static void main(String[] args) {
-
 
 
         Student lee = new Student(1,"Lee");
