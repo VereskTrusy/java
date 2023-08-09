@@ -50,10 +50,44 @@ public class VIPCustomer extends Customer {
     }
 
     /**
+     * Customer 에서 선언한 매서드 재정의, VIP용
+     * @param price
+     * @return
+     */
+    @Override
+    public double calPrice( double price ) {
+
+        super.bonusPoint += price * super.bonusRatio; // 보너스 적립
+
+        price = price - (price * this.saleRatio); // 할인 계산
+
+        return price;
+    }
+
+
+
+    /**
      * 굳이 super를 사용하여 Customer의 showCustomorInfo() 사용하기
      * @return
      */
     public String showVIPInfo(  ) {
         return super.showCustomorInfo() + " 담당 상담원 ID는 " + this.agentID + " 입니다.";
+    }
+
+    // getter, setter
+    public int getAgentID() {
+        return agentID;
+    }
+
+    public void setAgentID(int agentID) {
+        this.agentID = agentID;
+    }
+
+    public double getSaleRatio() {
+        return saleRatio;
+    }
+
+    public void setSaleRatio(double saleRatio) {
+        this.saleRatio = saleRatio;
     }
 }
