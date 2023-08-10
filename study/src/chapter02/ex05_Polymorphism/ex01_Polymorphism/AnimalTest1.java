@@ -64,6 +64,14 @@ public class AnimalTest1 {
         
         // Animal ani = new Human();
         // 이런식으로 형변환 됐을 것이다
+
+
+
+
+        Animal ani1 = new Human();
+        ani1.move();
+
+
     }
 
     /**
