@@ -6,6 +6,13 @@ package chapter02.ex06_AbstractClass.ex03_SoloCoding;
 public abstract class Car {
 
     /**
+     * 추상 클래스 생성자
+     */
+    public Car() {
+        System.out.println("추상클래스 생성자 Car ");
+    }
+
+    /**
      * run() 추상 메서드
      */
     public abstract void run();
@@ -21,4 +28,5 @@ public abstract class Car {
     public void stop(){
         System.out.println("Car stop");
     }
+
 }

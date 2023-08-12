@@ -11,4 +11,11 @@ public class Desktop extends Computer { // 추상 클래스 상속함
     public void typing() {
         System.out.println("Desktop typing");
     }
+
+    @Override
+    public void turnOn() {
+        System.out.println("재정의한 턴온");
+    }
+
+
 }

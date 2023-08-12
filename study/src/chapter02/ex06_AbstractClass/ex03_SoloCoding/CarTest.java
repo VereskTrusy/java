@@ -19,6 +19,11 @@ public class CarTest {
         autoCar.stop();
         autoCar.load();
 
+        System.out.println("print vim");
+
+
+
+
 
 
 
