@@ -16,9 +16,9 @@ public abstract class Car {
     }
 
     // template 메서드 선언
-    public final void run() {
+    final public void run() {
         startCar();
-        run();
+        drive();
         stop();
         turnOff();
     }
