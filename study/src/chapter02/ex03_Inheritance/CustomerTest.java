@@ -32,7 +32,7 @@ public class CustomerTest {
 //        Customer dd = vipCustomerJo;
 //        System.out.println( dd.showCustomorInfo() );
 
-//        // test
+//        // chapter02.ex04_VirtualFunction.test
 //        Customer cc = new VIPCustomer(1003, "cc", 80);
 //        cc.setBonusPoint(2000);
 //        System.out.println(cc.showCustomorInfo());
